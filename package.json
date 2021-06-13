@@ -1,0 +1,21 @@
+{
+  "name": "aplicativo_electron",
+  "version": "1.0.0",
+  "description": "Aplicativo DashBoard simples compilando em Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron main.js",
+    "startp": "cross-env NODE_ENV=production electron main.js",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "electron-builder": "^22.11.7"
+  }
+}
