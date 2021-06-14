@@ -10,8 +10,8 @@ O projeto tem como finalidade fazer uma compilação simples de uma dashboard ht
 ## *INSTALANDO :*
 
 ```sh
-git clone https://github.com/danilosoftwares/NodeDanfePDF.git
-cd NodeDanfePDF
+git clone https://github.com/danilosoftwares/DashBoardSimplesElectron.git
+cd DashBoardSimplesElectron
 npm install
 npm install electron   
 npm install electron-builder
