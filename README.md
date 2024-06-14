@@ -12,12 +12,20 @@ The project aims to make a simple compilation of an html dashboard also very sim
 ```sh
 git clone https://github.com/danilosoftwares/DashBoardSimplesElectron.git
 cd DashBoardSimplesElectron
-npm install
-npm install electron   
-npm install electron-builder
-npm install cross-env    
+yarn install
 ```
 
+## *BUILDING :*
+
+```sh
+yarn electron-builder -w   
+```
+
+## *DEBUG :*
+
+```sh
+yarn electron-builder -w   
+```
 ## License
 
 MIT
